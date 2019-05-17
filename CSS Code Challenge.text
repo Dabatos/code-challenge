@@ -1,0 +1,36 @@
+
+
+1. How can you switch a css style when the screen size is below a certain size?
+ By using a media query. 
+
+2. What is the benefit of using stylesheets instead of inline styles?
+Inline styles can only be applied to your html within that one file.
+Your css from a stylesheet can be applied to an entire web app.
+
+3. Is there a way to manage CSS with variables and functions? 
+Yes, by using less or sass.
+
+4. Review and update the following erroneous CSS: 
+
+.button, input[type="submit"], button { 
+    position: relative;
+    display: inline-block; 
+    padding-left: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: visible;
+    background-color: red;
+    text-transform: uppercase;
+    color: #141414;
+    font-size: 18px;
+    font-family: 'FuturaBT-Book';
+    line-height: 20px;
+    height: 20px;
+    -webkit-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    
+}
+
